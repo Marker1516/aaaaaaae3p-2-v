@@ -1,0 +1,21 @@
+{
+  "name": "Stereo Madness-ish",
+  "speed": 1.0,
+  "segments": [
+    {
+      "startX": 0,
+      "length": 1000,
+      "mode": "cube",
+      "gravity": "normal",
+      "objects": [
+        { "type": "spike", "x": 120, "y": 0 },
+        { "type": "platform", "x": 0, "y": -50, "width": 400 },
+        { "type": "jump_orb", "x": 260, "y": -20 }
+      ],
+      "triggers": [
+        { "type": "speed", "x": 800, "factor": 1.5 },
+        { "type": "portal", "x": 900, "mode": "ship", "gravity": "normal" }
+      ]
+    }
+  ]
+}
